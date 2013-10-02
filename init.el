@@ -1,4 +1,4 @@
-(add-to-list 'load-path user-emacs-directory)
+(add-to-list 'load-path (concat user-emacs-directory "/config"))
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 (setq inhibit-splash-screen t)
