@@ -73,7 +73,6 @@
 (depends-on "solarized-theme")
 (depends-on "sr-speedbar")
 (depends-on "ssh-config-mode")
-(depends-on "sublime-themes")
 (depends-on "surround")
 (depends-on "theme-changer")
 (depends-on "undo-tree")
