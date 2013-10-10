@@ -4,4 +4,7 @@
 (require 'linum-relative)
 (global-linum-mode 1)
 
+(require 'speedbar)
+(require 'sr-speedbar)
+
 (provide 'jhenahan-editor)
