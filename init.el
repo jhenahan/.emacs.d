@@ -12,7 +12,6 @@
 (require 'f)
 (require 's)
 
-(require 'tex-site)
 (require 'better-defaults)
 
 (require 'jhenahan-evil)
@@ -20,6 +19,7 @@
 (require 'jhenahan-flycheck)
 (require 'jhenahan-ui)
 (require 'jhenahan-haskell)
+(require 'jhenahan-latex)
 (require 'jhenahan-ido)
 (require 'jhenahan-modeline)
 (require 'jhenahan-editor)
