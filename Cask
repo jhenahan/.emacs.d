@@ -66,6 +66,7 @@
 (depends-on "projectile")
 (depends-on "prolog")
 (depends-on "rainbow-delimiters")
+(depends-on "rust-mode")
 (depends-on "s")
 (depends-on "scss-mode")
 (depends-on "smart-mode-line")
