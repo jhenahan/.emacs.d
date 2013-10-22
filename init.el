@@ -24,6 +24,8 @@
 (require 'jhenahan-modeline)
 (require 'jhenahan-editor)
 (require 'jhenahan-prolog)
+(require 'jhenahan-agda)
 
 (if (eq system-type 'darwin)
     (require 'jhenahan-osx))
+

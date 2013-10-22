@@ -6,6 +6,14 @@
 (require 'surround)
 (require 'undo-tree)
 
+;; I don't want paredit putting spaces before delimiters
+(defun paredit-space-for-delimiter-p (endp delimiter)
+  (and (not (if endp (eobp) (bobp)))
+       (memq (char-syntax (if endp (char-after) (char-before)))
+             (list ?\"  ;; REMOVED ?w ?_
+                   (let ((matching (matching-paren delimiter)))
+                     (and matching (char-syntax matching)))))))
+
 (setq evil-leader/in-all-states t)
 (evil-leader/set-leader ",")
 (evil-mode nil)

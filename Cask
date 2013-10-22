@@ -78,6 +78,7 @@
 (depends-on "surround")
 (depends-on "theme-changer")
 (depends-on "undo-tree")
+(depends-on "unicode-fonts")
 (depends-on "vline")
 (depends-on "wrap-region")
 (depends-on "yasnippet")
