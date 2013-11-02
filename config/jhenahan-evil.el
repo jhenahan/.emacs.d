@@ -14,6 +14,9 @@
                    (let ((matching (matching-paren delimiter)))
                      (and matching (char-syntax matching)))))))
 
+(setq evil-motion-state-modes (append evil-emacs-state-modes evil-motion-state-modes))
+(setq evil-emacs-state-modes nil)
+
 (setq evil-leader/in-all-states t)
 (evil-leader/set-leader ",")
 (evil-mode nil)
