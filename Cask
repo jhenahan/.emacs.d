@@ -20,6 +20,7 @@
 (depends-on "drag-stuff")
 (depends-on "elfeed")
 (depends-on "emmet-mode")
+(depends-on "epl")
 (depends-on "erlang")
 (depends-on "evil")
 (depends-on "evil-indent-textobject")
