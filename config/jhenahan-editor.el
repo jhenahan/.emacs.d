@@ -7,4 +7,7 @@
 (require 'speedbar)
 (require 'sr-speedbar)
 
+(require 'multi-term)
+(setq multi-term-program "/opt/boxen/homebrew/bin/fish")
+
 (provide 'jhenahan-editor)

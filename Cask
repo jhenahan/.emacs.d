@@ -56,6 +56,7 @@
 (depends-on "js2-mode")
 (depends-on "linum-relative")
 (depends-on "magit")
+(depends-on "multi-term")
 (depends-on "multiple-cursors")
 (depends-on "nginx-mode")
 (depends-on "nyan-mode")
