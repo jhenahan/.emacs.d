@@ -6,3 +6,5 @@ autosaves/
 custom.el
 var/
 eshell/
+auto-save-list/
+backups/

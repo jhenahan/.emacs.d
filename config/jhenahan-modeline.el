@@ -25,9 +25,6 @@
   (setq mode-name "ξLisp"))
 
 (require 'smart-mode-line)
-(if after-init-time (sml/setup)
-  (add-hook 'after-init-hook 'sml/setup))
-(display-time-mode 1)
-(setq sml/mode-width 'full)
+(sml/setup)
 
 (provide 'jhenahan-modeline)

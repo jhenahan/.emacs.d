@@ -1,12 +1,13 @@
 (defadvice load-theme  
   (before theme-dont-propagate activate) 
   (mapc #'disable-theme custom-enabled-themes))
-(setq calendar-location-name "Burlington, VT")
-(setq calendar-latitude 44.48)
-(setq calendar-longitude -73.21)
+(setq calendar-location-name "Winooski, VT")
+(setq calendar-latitude 44.50)
+(setq calendar-longitude -73.18)
 
+;(require 'moe-theme-switcher)
 (require 'theme-changer)
-(change-theme 'solarized-light 'solarized-dark)
+(change-theme 'moe-light 'moe-dark)
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
